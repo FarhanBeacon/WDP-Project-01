@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header>div {
+    height: 60vh;
+}
+
+.menu>ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background: lightblue;
+    border-bottom: 3px solid skyblue;
+}
+
+.menu>ul>li {
+    list-style: none;
+    font-size: 24px;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin: 5px 0px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 30vh;
+    padding: 8px;
+    background: lightgrey;
+}
+
+.aside {
+    width: 30%;
+    padding-right: 8px;
+}
+
+.content {
+    width: 70%;
+}
+
+.tableData {
+    color: goldenrod;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    height: 40px;
+}
